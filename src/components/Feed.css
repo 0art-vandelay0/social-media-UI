@@ -1,0 +1,84 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+    margin: 20px;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+    font-family: sans-serif;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+
+
+#feed-main-container {
+    width: 45%;
+    flex-direction: column;
+    display: flex;
+    margin-top: 10px;
+}
+
+#feed-item-container {
+    flex-direction: column;
+    display: flex;
+}
+
+#feed-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid rgb(169, 168, 168);
+    margin-bottom: -1px;
+    background-color: white;
+}
+
+#user-icon {
+    margin-left: 10px;;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#text-content {
+    display: block;
+}
+
+#name, #message {
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+
+
+/* From FeedList.js */
+#update-feed-entry {
+    /* width: 30%; */
+    background-color: rgb(166, 207, 221);
+    border: 1px solid rgb(169, 168, 168);
+    margin-bottom: -1px;
+    display: flex;
+}
+
+#feed-input {
+    width: 75%;
+    /* display: inline-block; */
+    margin-left: auto;
+    margin-right: 5px;
+    align-items: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: rgb(66, 133, 200);
+    border: 1px solid rgb(66, 133, 200);
+}
+
+
